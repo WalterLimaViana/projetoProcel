@@ -35,7 +35,7 @@ body {
     max-width: 480px;
     margin: auto;
     background-color: var(--color--secundary);
-    height: 500px;
+    height: 300px;
     color: var(--color--black);
     border-radius: 10px;
   }
@@ -44,7 +44,7 @@ body {
     overflow: hidden;   
     position: relative;
     .logo{
-        width: 32%;
+        width: 16%;
     }
   }
   
@@ -88,9 +88,12 @@ body {
     top: 0;
 
   }
-  
-  
+   
   .active {
     background-color: var(--color--secundary);
     color:var(--color--black);
+  }
+
+  .img-ar{
+      width: 100%;
   }
