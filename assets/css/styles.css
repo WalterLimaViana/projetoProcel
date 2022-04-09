@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+:root {
+  --color--0: #2454A9;
+  --color--1:#E5E4E4;
+  --color--2: #FFFFFF;
+  --color--3:#E3E3E3;
+  --color--4: #C4C4C4;
+  --color--black: #000000;
+  --color--5:#E58D22;
+  --color--6:#024B5A;
+  --color--7:#2A5680;
+  --color--8:#2C5A86;
+  --color--9:#2F608F;
+  --color--10:#012A52;
+  --color--11:#002B53;
+  --color--12:#CFE0F1;
+  --color--primary:#0066CC;
+  --color--14:#A3BFE4;
+  --color--15:#EDF1F7;
+  --color--16:#6284C0;
+  --color--17:#0000FF;
+}
+/*# sourceMappingURL=styles.css.map */
