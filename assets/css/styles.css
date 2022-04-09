@@ -7,12 +7,13 @@
 }
 
 :root {
-  --color--0: #2454A9;
+  --color--primary:#0066CC;
+  --color--secundary: #FFFFFF;
+  --color--black: #000000;
+  --color--blue: #2454A9;
   --color--1:#E5E4E4;
-  --color--2: #FFFFFF;
   --color--3:#E3E3E3;
   --color--4: #C4C4C4;
-  --color--black: #000000;
   --color--5:#E58D22;
   --color--6:#024B5A;
   --color--7:#2A5680;
@@ -21,10 +22,77 @@
   --color--10:#012A52;
   --color--11:#002B53;
   --color--12:#CFE0F1;
-  --color--primary:#0066CC;
   --color--14:#A3BFE4;
   --color--15:#EDF1F7;
   --color--16:#6284C0;
   --color--17:#0000FF;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: var(--color--secundary);
+  height: 500px;
+  color: var(--color--black);
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav .logo {
+  width: 32%;
+}
+
+.topnav #myLinks {
+  display: none;
+  background: var(--color--secundary);
+  color: var(--color--black);
+}
+
+.topnav a {
+  color: var(--color--blue);
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+
+.topnav a.icon-menu {
+  width: 10%;
+  background: var(--color--secundary);
+  color: var(--color--blue);
+  display: block;
+  font-size: 20px;
+  padding: 12px 1px;
+  margin-right: 1px;
+  margin-top: 3px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.icon-pesquisa {
+  width: 22%;
+  background: var(--color--secundary);
+  color: var(--color--blue);
+  display: block;
+  font-size: 30px;
+  margin: 10px;
+  margin-top: 13px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.active {
+  background-color: var(--color--secundary);
+  color: var(--color--black);
 }
 /*# sourceMappingURL=styles.css.map */
